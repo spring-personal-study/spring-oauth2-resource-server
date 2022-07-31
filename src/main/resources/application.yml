@@ -6,4 +6,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://auth-server:9000
+          issuer-uri: http://auth-server:9000 # 인증 서버에 대한 적절한 URL. authorization server 에서 설정함
